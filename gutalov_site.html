@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Site for session</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site_style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="img/icon.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div>
+      <!-- Top menu, img, search, social networks -->
+      <div class="menu">
+        <div class="logo">
+        <a href="gutalov_site.html"> <img class="icon" src="img/iconforsite.jpg" alt="#"> </a>
+        </div>
+        <div class="search">
+          <input type="search" placeholder="Поиск по сайту">
+        </div>
+        
+        <div class="social-icons">
+          <a href="#"> <img class="social" src="img/youtube.jpg" alt="#"> </a>
+          <a href="#"> <img class="social" src="img/twitter.jpg" alt="#"> </a>
+          <a href="#"> <img class="social" src="img/facebook.jpg" alt="#"> </a>
+          <a href="#"> <img class="social" src="img/google.jpg" alt="#"> </a>
+        </div>
+        
+      </div>
+      <!-- Navbar -->
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a class="active" href="gutalov_site.html">Главная</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li class="right"><a href="about.html">О нас</a></li>
+            <li><a href="form/form.html">Напиши нам</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Site's body -->
+      <div class="box">
+
+
+        <div class="maintext">
+
+          <hr>
+          <h1 class="bonustext">Добро пожаловать на главную страницу сайта</h1>
+          <h2 class="bonustext">Что предоставляет наш сайт?</h2>
+            <p style="font-size:1.2em">
+            Данный ресурс является одним из самых лучших ресурсов по предоставлению свежих новостей из индустрии видеоигр. Наши новости всегда актуальны и обхватывают любые направления в этой индустрии. Каждый геймер, от тинейджера до взрослого человека найдет интересную для него информацию.
+            </p>
+
+          <hr>
+          <img class="imginbox2" src="img/mainpicture.jpg"  alt="#">
+          <hr>
+        <p style="font-size:1.2em"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo mauris, interdum convallis lacinia tempor, semper eu tortor. Morbi non lorem quam. Nunc interdum vehicula massa, sed vulputate elit semper eu. Phasellus diam tellus, varius iaculis libero sed, accumsan feugiat metus. Donec leo ex, tincidunt sit amet nibh quis, efficitur convallis nunc. Cras interdum accumsan sagittis. Mauris non volutpat felis. Integer sit amet odio elementum lectus dignissim auctor at sit amet metus. Vivamus odio tortor, tristique in scelerisque nec, auctor euismod sapien. Ut placerat, libero nec fringilla finibus, metus nisi maximus magna, quis pulvinar ligula eros ut justo.
+
+        Donec placerat commodo nunc ac dictum. Cras sagittis sollicitudin ipsum, eget blandit leo blandit vel. Quisque dapibus, neque sit amet dapibus vehicula, felis nulla rutrum nisl, non sodales lectus sapien ac erat. Maecenas tincidunt rhoncus diam. Donec ac nisi id leo fermentum dapibus ut ut ipsum. Duis sed velit quis ex suscipit faucibus. Nunc pellentesque tempus arcu, quis dapibus lorem eleifend sit amet. Fusce vel hendrerit dui. Proin quis lectus imperdiet neque luctus mattis nec at nunc. Nam sit amet magna sit amet nisi auctor tempus at in nulla. Nam non imperdiet velit. </p>
+        <hr>
+        <a href="#"><img class="mainrow" src="img/row/1row.jpg" alt="#"></a>
+        <a href="#"><img class="mainrow" src="img/row/2row.jpg" alt="#"></a>
+        <a href="#"><img class="mainrow" src="img/row/3row.jpg" alt="#"></a>
+        </div>
+
+      </div>
+    </div>
+    <!-- Site's footer -->
+      <div class="clear"></div>
+      <div class="footer">
+        <p>&copy; All Rights Reserved by Gutalov Stanislav</p>
+      </div>
+
+    <!-- End of site's body -->
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 100) {
+        $('.scrollup').fadeIn();
+          } else {
+        $('.scrollup').fadeOut();
+          }
+        });
+  $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+      return false;
+          });
+        });
+</script>
+<a href="#" class="scrollup">Наверх</a>
+  </body>
+</html>

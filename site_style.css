@@ -1,0 +1,448 @@
+/* For site's body */
+body{
+  background: url(img/fon.jpg) no-repeat top center fixed;
+  background-size: auto;
+  margin-bottom: 0px;
+}
+.menu{
+  width: 1010px;
+  margin: 0 auto;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+  background: #fff;
+  height: 100px;
+  margin-top: 0;
+}
+.icon{
+  margin-top: 5px;
+  float: left;
+  margin-left: 5px;
+}
+.social{
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 2px;
+}
+input{
+  width: 470px;
+  height: 40px;
+  /*float: left;*/
+  margin-top: 25px;
+  
+  margin-right: 10px;
+  background-image: url(img/zoom.jpg);
+  background-repeat: no-repeat;
+  background-position: 8px;
+  background-size: 20px 20px;
+  padding-left: 35px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 1014px;
+    margin-top: 5px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: #4CAF50;
+}
+.right{
+  float: right;
+}
+p{
+  text-indent: 2em;
+  font-size: 2ex;
+  font-family: "";
+}
+
+.mainrow{
+  width: 328px;
+  height: 200px;
+  float: left;
+  padding-top: 15px;
+  padding-left: 4px;
+}
+.maintext{
+  width: 1000px;
+  padding-left: 5px;
+  float: left;
+}
+.bonustext{
+  text-align: center;
+}
+.box{
+  width: 1010px;
+  margin: 0 auto;
+  background: #f5f5f5;
+  position: relative;
+}
+.imginbox2{
+  width: 100%;
+}
+.clear{
+  clear: both;
+}
+.footer{
+  width: 1014px;
+  margin: 0 auto;
+  background-color: #333;
+  height: 60px;
+  position: relative;
+
+}
+.footer p{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+
+}
+
+
+
+
+/* For about */
+.about{
+  width: 1010px;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+}
+.about_us{
+  width: 320px;
+  height: 500px;
+  float: left;
+  background: #f5f5f5;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+  margin-left: 13px;
+}
+.about_img{
+  width: 300px;
+  height: 190px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.t_about{
+  font-size: 1.2em;
+  text-align: justify;
+  margin-top: 215px;
+  margin-right: 9px;
+  margin-left: 9px;
+}
+.t_about1{
+  font-size: 1.2em;
+  text-align: justify;
+  margin-top: 5px;
+  margin-right: 9px;
+  margin-left: 9px;
+}
+.map{
+  width: 990px;
+  height: 680px;
+  background: #f5f5f5;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+  margin-left: 10px;
+}
+.bigmap{
+  width: 970px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+/* For news */
+.news{
+  width: 975px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #f5f5f5;
+
+
+}
+.news li{
+  list-style: none;
+  background: #f5f5f5;
+  margin-left: 25px;
+  width: 900px;
+  margin-top: 5px;
+}
+.news li .photo{
+  width: 260px;
+  float: left;
+}
+.news li .photo img{
+  width: 240px;
+}
+.news li .title a{
+  color: black;
+  font-size: 25px;
+  outline: none;
+
+}
+.news li a:hover{
+  background-color: transparent;
+}
+.text::first-line{
+  
+}
+.newsarticle{
+  font-size: 1.25em;
+  margin-left: 5px;
+}
+.artimg{
+  width: 440px;
+  height: 300px;
+  display: inline-block;
+  margin-left: 35px;
+}
+.art3{
+  width: 500px;
+  height: 700px;
+  float: left;
+  padding-right: 10px;
+}
+
+/* For gallery */
+.gallery{
+  width: 990px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+.gallery img{
+  width: 492px;
+  height: 300px;
+  align:center;
+}
+.name{
+  margin: 0 auto;
+  text-align: center;
+}
+.image{
+  text-decoration: none;
+}
+
+
+/* To scroll page up */
+.scrollup{
+width:40px;
+height:40px;
+position:fixed;
+bottom:50px;
+right:100px;
+display:none;
+text-indent:-9999px;
+background: url(img/icon_top.png) no-repeat;
+z-index: 1;
+}
+
+.menu .logo{
+  width: 30%;
+  float: left;
+
+}
+.menu .search{
+  width: 48%;
+  float: left;
+  display: block;
+}
+
+.menu .social-icons{
+  width: 22%;
+  float: left;
+}
+
+
+@media screen and (max-width: 800px){
+  .menu{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.25);
+    background: #fff;
+    height: 100px;
+    margin-top: 0;
+  }
+  .menu .logo{
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  .menu .search{
+    width: 100%;
+    display: block;
+    float: none;
+  }
+  input{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .menu .social-icons{
+    width: 70%;
+    display: block;
+    padding-left: 30%;
+  }
+  ul{
+    width: 100%;
+  }
+  .navbar{
+    width: 100%;
+    padding-top: 140px;
+    display: block;
+  }
+  .navbar ul li{
+    float: none;
+  }
+  .right{
+    float: left;
+  }
+
+  .box{ 
+    width: 100%;
+  }
+  .maintext{
+    width: 100%;
+    padding-left: 5px;
+    float: left;
+  }
+  .footer{
+    width: 100%;
+  }
+/* Gallery settings */  
+  .mainrow{
+    width: 96%;
+    height: 250px;
+  }
+  .gallery{
+    width: 100%;
+    padding: 0px;
+  }
+  .gallery img{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .gal-img{
+    width: 100%;
+  }
+  .image{
+    width: 100%;
+  }
+/* News settings*/ 
+  .news{
+    width: 100%;
+  } 
+  .news li{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .photo{
+    width: 100%;
+  }
+  .news li .photo img{
+    display: none;
+  }
+  .news li .title{
+    width: 90%;
+    text-align: center;
+  }
+  .news li .text{
+    width: 96%;
+    text-align: center;
+  }
+  .artimg{
+    width: 100%;
+    margin-left: 0px;
+  }
+  iframe{
+    width: 100%;
+    height: 400px;
+  }
+  .art3{
+    width: 60%;
+    height: 400px;
+  }
+  .newsarticle{
+    text-align: center;
+  }
+/* About settings */ 
+  .about{
+    width: 100%;
+  } 
+  .about_us{
+    margin-top: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .bonustext{
+    width: 100%;
+  } 
+  .map{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .map img{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .t_about{
+    text-align: center;
+  }
+  .t_about1{
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .menu .social-icons{
+    display: none;
+  }
+  .navbar{
+    padding-top: 65px;
+  }
+/* Gallery settings */ 
+  .gallery img{
+    width: 100%;
+    height: 230px;
+    margin-left: 0px;
+  }
+/* News settings */    
+  iframe{
+    width: 100%;
+    height: 220px;
+  }
+  .art3{
+    width: 100%;
+    height: 400px;
+  }
+  .newsarticle{
+    text-align: center;
+  }
+/* About settings */   
+    .map{
+    height: 860px;
+}
